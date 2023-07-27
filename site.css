@@ -1,0 +1,91 @@
+.navbar{
+    background-color: aliceblue;
+    border-radius: 30px;
+  }
+  .navbar ul{
+    overflow: auto;
+}
+.navbar li{
+    float:left;
+    list-style: none; 
+    margin: 13px 20px;
+    
+}
+.navbar li a{
+    padding: 3px 3px;
+    text-decoration: none;
+    color: black;
+}
+.navbar li a:hover{
+    color: red
+}
+
+
+h2{
+    background-color: blanchedalmond;
+    margin:auto;
+    width: 15%;
+    padding: 13px;
+    text-align: center;
+    border-radius: 50px;
+    
+}
+.intro{
+    margin: 30px;
+    display:inline-block;
+    padding: 13px;
+    box-shadow: 10px 13px  greenyellow;
+    border-color: black;
+    border-width: 20px;
+    background-color: lightyellow;
+    width: 50%;
+    height: auto;
+    font-size: 20px;
+    text-align: center
+    
+
+}
+header::before{
+   background: url('img/image.jpg');
+    content: "";
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.9;
+    
+}
+  #skills{
+background-color:lightyellow ;
+height: auto;
+width: 300px;
+text-align: left;
+    position: absolute;
+    right: 100px;
+    top: 127px
+    display: inline-block;
+    /* border: 2px solid yellow; */
+     
+}
+#education{
+    margin: 25px;
+   height: auto;
+   width: auto;
+   text-align: left;
+   position: absolute;
+   display: inline-block;
+   left:60px ;
+   top: 350px;
+   background-color: lightyellow;
+  
+}
+.part{
+    box-shadow: 10px 13px  greenyellow;
+}
+body{
+    font-family: 'Times New Roman', serif;
+}
+
+
